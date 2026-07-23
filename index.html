@@ -24,6 +24,7 @@
     font-family:"Noto Serif KR", serif;
     color:var(--ink);
     -webkit-font-smoothing:antialiased;
+    word-break:keep-all;
   }
   #app{
     width:100%; max-width:480px; min-height:100vh;
@@ -144,7 +145,7 @@
   .couple-card{ flex:1; background:var(--panel); border-radius:12px; padding:26px 12px; border:1px solid var(--line); }
   .couple-card .role{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:13px; color:var(--accent); letter-spacing:1px; margin-bottom:8px;}
   .couple-card .name{ font-size:17px; font-weight:500; margin-bottom:8px;}
-  .couple-card .parents{ font-size:12.5px; color:var(--sub); line-height:1.8; font-weight:300;}
+  .couple-card .parents{ font-size:12.5px; color:var(--sub); line-height:1.8; font-weight:300; word-break:keep-all;}
   /* ---------- 5. 예식 안내 + 지도 ---------- */
   #when-where .info-line{ font-size:16px; margin-bottom:6px; font-weight:400;}
   #when-where .info-sub{ font-size:13px; color:var(--sub); margin-bottom:28px; font-weight:300;}
@@ -539,4 +540,3 @@
 </script>
 </body>
 </html>
- 
